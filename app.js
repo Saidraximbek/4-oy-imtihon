@@ -33,7 +33,6 @@
 // }
 // console.log(sonYigindi(6));
 
-
 // Array3.
 // n ta elementdan tashkil topgan massiv berilgan.
 // Massivning faqat toq indeksdagi elementlari teskari tartibda chiqarilsin.
@@ -83,31 +82,26 @@
 // 📥 Input: [2, 3, 2, 5, 3, 3, 7, 2, 3]
 //  📤 Output: Eng ko‘p uchragan element: 3, Uchrash soni: 4
 
-let arr = [2, 3, 2, 5, 3, 3, 7, 2, 3];
-let newArr=[]
-let counter = 0;
-for(let i=0; i<arr.length-1; i++){
-    for(let j = i+1; j<arr.length;j++){
-        // if(arr[i]==arr[j] && ){
-        //   newArr.push(arr[i])
-        // }
-        if(arr[i]==arr[j]){
-          counter++
-          newArr.push(arr[i])
+// let arr = [2, 3, 2, 5, 3, 3, 7, 2, 3];
+// let counter = 1;
+// let n = 0;
+// let son;
 
-          
-        }
-    }
- 
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = i; j < arr.length; j++) {
+//     if (arr[i] == arr[j]) n++;
 
-}
+//     if (counter < n) {
+//       counter = n;
+//       son = arr[i];
+//     }
+//   }
+//   n = 0;
+// }
 
-for(let k = 0; k<newArr.length; k++){
-    
-}
-
-console.log(newArr);
-
+// console.log(
+//   `Eng ko'p takrorlangan son = ${son}, u ${counter} marta takrorlangan`
+// );
 
 // Array7.
 // n ta elementdan tashkil topgan massiv va R butun soni berilgan.
